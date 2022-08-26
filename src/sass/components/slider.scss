@@ -171,11 +171,17 @@
 }
 .slick-prev {
     z-index: 1;
-    left: 0;
+    left: 5px;
+    @media screen and (max-width: 500px) {
+        left: 10px;
+    }
 }
 .slick-next {
     z-index: 1;
-    right: 0;
+    right: 5px;
+    @media screen and (max-width: 500px) {
+        right: 10px;
+    }
 }
 
 .trending__box:hover, .brand__bar_slider:hover, .special__box:hover, .blogs__slider:hover {

@@ -410,15 +410,21 @@ $(document).ready(function () {
         slidesToScroll: 1
       }
     }, {
-      breakpoint: 730,
+      breakpoint: 1030,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1
       }
     }, {
-      breakpoint: 500,
+      breakpoint: 730,
       settings: {
         slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }, {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }]
