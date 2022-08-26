@@ -1160,7 +1160,7 @@ input[id=answer_35]:checked::after {
 .title__main_menu {
   display: flex;
   background-color: #222;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   padding: 10px 0;
 }
@@ -1217,11 +1217,16 @@ input[id=answer_35]:checked::after {
   background: transparent;
 }
 .title__main_menu-left .sales {
+  display: flex;
   border: none;
 }
 .title__main_menu-left .sales a {
+  font-size: 13px;
   color: rgb(255, 129, 73);
-  margin-right: 0;
+  margin-right: 5px;
+}
+.title__main_menu-left .sales a i {
+  font-size: 10px;
 }
 .title__main_menu-left .sales:hover a {
   color: white;
